@@ -52,7 +52,7 @@
         <span></span>
     </div>
 </nav>
-<div class="jumbotron jumbotron-fluid">
+<!-- <div class="jumbotron jumbotron-fluid">
     <div class="row">
         <div class="col-md-4 mt-5 pt-5">
             <div class="container ml-5">
@@ -65,7 +65,7 @@
               <img src="{!! asset('properties') !!}/images/beranda/jumbotron-img.png" alt="">
           </div>
         </div>
-    </div>
+    </div> -->
 
     @yield('content')
 

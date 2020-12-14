@@ -14,9 +14,13 @@
 // use Symfony\Component\Routing\Annotation\Route;
 use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
-    return view('welcome');
+    return view('beranda.index');
 });
 
 Route::group(['prefix' =>  'beranda'], function(){
     Route::get('/', 'BerandaController@index')->name('beranda');
+});
+
+Route::group(['prefix' =>  'tentangkami'], function(){
+    Route::get('/', 'TentangKamiController@index')->name('tentangkami');
 });
