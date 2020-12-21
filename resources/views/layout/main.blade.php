@@ -43,7 +43,7 @@
     <ul>
         <li><a href="">menu</a></li>
         <li><a href="">menu</a></li>
-        <li><a href="">menu</a></li>
+        <li><a href="<?= route('FAQ') ?>">FAQ</a></li>
     </ul>
     <div class="menu-toggle">
         <input type="checkbox">
