@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class BerandaController extends Controller
 {
     public function index(){
-        $title = 'Web Profile';
+        $title = 'Beranda';
         return view('beranda.index', compact('title'));
     }
 }
