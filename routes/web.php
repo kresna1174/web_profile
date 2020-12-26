@@ -24,3 +24,8 @@ Route::group(['prefix' =>  'beranda'], function(){
 Route::group(['prefix' => 'FAQ'], function(){
     Route::get('/', 'FaqController@index')->name('FAQ');
 });
+
+Route::group(['prefix' => 'hubungi_kami'], function(){
+    Route::get('/', 'Hubungi_kamiController@index')->name('hubungi_kami');
+    Route::post('mail', 'Hubungi_kamiController@mail');
+});
