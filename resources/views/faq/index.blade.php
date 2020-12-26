@@ -55,7 +55,7 @@
             <img src="{!! asset('properties') !!}/images/faq/gambar 2.png" class="position-absolute" style="margin-top:10rem; margin-left:65%;">
             <img src="{!! asset('properties') !!}/images/faq/tengah-pojok-kanan.png" class="float-right">
             <h2 class="mt-5 mb-5" style="color:rgb(218,165,32);">Pertanyaan umum : </h2>
-            <div class="card-body" id="qa-head" style="">
+            <div class="card-body" id="qa-head">
                 <h2 class="card-title text-white mb-4 collapsible">Layanan apa saja yang di tawarkan Haltec ?</h2>
                 <h4 class="card-text text-light content">Disini Haltec memberikan 3 layanan yaitu :
                     <br>    
