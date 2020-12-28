@@ -24,3 +24,15 @@ Route::group(['prefix' =>  'beranda'], function(){
 Route::group(['prefix' => 'FAQ'], function(){
     Route::get('/', 'FaqController@index')->name('FAQ');
 });
+
+Route::group(['prefix' =>  'branding'], function(){
+    Route::get('/', 'BrandingSolutionController@index')->name('branding');
+});
+
+Route::group(['prefix' => 'login'], function(){
+    Route::get('/', 'LoginController@indx')->name('login');
+});
+
+Route::group(['prefix' => 'register'], function(){
+    Route::get('/', 'RegisterController@indx')->name('register');
+});
