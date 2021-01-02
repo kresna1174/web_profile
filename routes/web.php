@@ -21,6 +21,10 @@ Route::group(['prefix' =>  'beranda'], function(){
     Route::get('/', 'BerandaController@index')->name('beranda');
 });
 
+Route::group(['prefix' =>  'tentangkami'], function(){
+    Route::get('/', 'TentangKamiController@index')->name('tentangkami');
+});
+    
 Route::group(['prefix' => 'FAQ'], function(){
     Route::get('/', 'FaqController@index')->name('FAQ');
 });
@@ -28,6 +32,7 @@ Route::group(['prefix' => 'FAQ'], function(){
 Route::group(['prefix' => 'client'], function(){
     Route::get('/', 'ClientController@index')->name('client');
 });
+
 Route::group(['prefix' =>  'branding'], function(){
     Route::get('/', 'BrandingSolutionController@index')->name('branding');
 });
