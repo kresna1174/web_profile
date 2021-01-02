@@ -24,3 +24,23 @@ Route::group(['prefix' =>  'beranda'], function(){
 Route::group(['prefix' =>  'tentangkami'], function(){
     Route::get('/', 'TentangKamiController@index')->name('tentangkami');
 });
+    
+Route::group(['prefix' => 'FAQ'], function(){
+    Route::get('/', 'FaqController@index')->name('FAQ');
+});
+
+Route::group(['prefix' => 'client'], function(){
+    Route::get('/', 'ClientController@index')->name('client');
+});
+
+Route::group(['prefix' =>  'branding'], function(){
+    Route::get('/', 'BrandingSolutionController@index')->name('branding');
+});
+
+Route::group(['prefix' => 'login'], function(){
+    Route::get('/', 'LoginController@indx')->name('login');
+});
+
+Route::group(['prefix' => 'register'], function(){
+    Route::get('/', 'RegisterController@indx')->name('register');
+});
