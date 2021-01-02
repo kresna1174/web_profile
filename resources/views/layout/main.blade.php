@@ -32,6 +32,15 @@
         <span></span>
     </div>
 </nav>
+<<<<<<< HEAD
+<!-- <div class="jumbotron jumbotron-fluid">
+    <div class="row">
+        <div class="col-md-4 mt-5 pt-5">
+            <div class="container ml-5">
+              <h1 class="display-4">layanan branding solution</h1>
+              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              <button type="button" class="btn btn-outline-warning rounded-pill">Warning</button>
+=======
     <div class="jumbotron jumbotron-fluid">
         <div class="container mt-5 pt-5">
             <div class="row">
@@ -43,9 +52,10 @@
                 <div class="col-md-6">
                 @yield('images_jumbotron')
                 </div>
+>>>>>>> f58e587b5ad7c69164ca93fba2d40ef292c0d355
             </div>
         </div>
-    </div>
+    </div> -->
 
     @yield('content')
 
