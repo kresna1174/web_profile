@@ -44,7 +44,7 @@
         <img src="{!! asset('properties') !!}/images/tentangkami/Untitled-1_19.png" class="position-absolute" style="width:450px; height:260px; margin:125px 0 0 450px">   
         <img src="{!! asset('properties') !!}/images/tentangkami/Untitled-1_03.png" class="float-right" style="height:1500px; width:900px; padding:27px 0 0 0">   
     </div>
-    <div class="position-absolute card bg-light" style="width:95%;height:200vh!important ; margin:110.5% 0 0 30px; border-radius:20px; box-shadow: 0 7px rgba(0, 0, 0, 0.2)">
+    <div class="`  card bg-light" style="z-index:10; width:95%;height:200vh!important ; margin:110.5% 0 0 30px; border-radius:20px; box-shadow: 0 7px rgba(0, 0, 0, 0.2)">
         <div class="card-body" style="line-height: 1.5">
             <br><h2 class="card-title " style="margin:20px 0 0 170px; font-weight:bold">History HALTEC</h2><br>
             <p align="justify" style="text-indent: 50px; font-weight:500; font-size:18px; margin:0 140px 0 120px">Haltec memulai karirnya sebagai kelompok projek yang memiliki tujuan untuk membuat suatu produk atau layanan di bidang software. Mereka memiliki tujuan yang sama dengan keahlian yang berbeda-beda, adapun keahlian atau kemapuan yang dimiliki adalah Desain, Sistem Analis, dan Programming. Mereka adalah Yuan sebagai leader, Aviv sebagai wakil leader, Reza sebagai desainer, Nindi sebagai sistem analasis, Siska sebagai UI Progammer, Ratri sebagai data base progammer, dan Sandi sebagai web progammer. Namun 4 anggota memutuskan untuk keluar! 4 anggota tersebut adalah Reza, Nindi, Siska, dan Sandi.</p><br><br><br>
@@ -74,6 +74,5 @@
     </div>
 </div>
 <script>
-
 </script>
 @endsection
